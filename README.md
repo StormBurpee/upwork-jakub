@@ -1,5 +1,23 @@
 # GithubUserSpa
 
+## Setup
+To install
+```
+git clone https://github.com/StormBurpee/upwork-jakub
+cd upwork-jakup
+npm install
+```
+To start the server run
+```
+npm run server
+```
+
+To start the client run
+```
+npm start
+```
+then navigate to http://localhost:4200 in your local browser.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
 ## Development server

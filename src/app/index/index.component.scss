@@ -1,0 +1,12 @@
+.index-component {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  width: 400px;
+  height: 250px;
+
+  & .login-card {
+
+  }
+}
