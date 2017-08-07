@@ -9,7 +9,7 @@ var githubCredentials = {
 
 //Initialise express (the web server)
 var app = express();
-app.user(cookieParser()); //Cookie parser to set login tokens etc
+app.use(cookieParser()); //Cookie parser to set login tokens etc
 app.use(bodyParser.urlencoded({extended: true})); // Return in json format
 app.use(bodyParser.json()); // same as above.
 var port = process.env.PORT || 8080; //Set port of server (needed in angular app)
