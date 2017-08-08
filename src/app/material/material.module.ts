@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MdToolbarModule, MdSidenavModule, MdCardModule, MdInputModule } from '@angular/material';
+import { MdToolbarModule, MdSidenavModule, MdCardModule, MdInputModule, MdListModule } from '@angular/material';
 
 @NgModule({
   imports: [

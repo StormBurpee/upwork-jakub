@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { IndexComponent } from './index/index.component';
 import { CallbackComponent } from './callback/callback.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { UserComponent } from './user/user.component';
 
 //defining our routes
 const routes: Routes = [
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'home',
     component: DashboardComponent
+  },
+  {
+    path: "user/:username",
+    component: UserComponent
   }
 ];
 

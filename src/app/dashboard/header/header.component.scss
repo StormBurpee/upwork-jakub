@@ -33,4 +33,51 @@
     font-weight: 300;
     text-align: center;
   }
+  .results {
+    .basic-user-details, .basic-repo-details {
+      padding: 10px;
+
+      md-card {
+        md-card-header {
+          width: 100%;
+          overflow: hidden;
+          height: 42px;
+          overflow: hidden;
+          & .description {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            text-align: left
+
+          }
+        }
+        md-card-title {
+          text-align: left;
+          margin: 0;
+          h2 {
+            font-weight: 300;
+            margin-bottom: 10px;
+            margin-top: 0;
+            line-height: 42px;
+          }
+        }
+        .user-avatar {
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+
+    md-list-item {
+      .user-avatar {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
 }

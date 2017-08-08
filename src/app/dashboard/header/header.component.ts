@@ -16,14 +16,29 @@ export class HeaderComponent implements OnInit {
 
   @Input() user;
   searchResults;
+  username;
 
   private searchSubject: Subject<any> = new Subject();
 
   constructor(private githubService: LoginService) {
-
+    this.searchSubject.debounceTime(450).distinctUntilChanged().subscribe(
+      term => this.doSearch(term)
+    )
   }
 
   ngOnInit() {
+    this.username = localStorage.username;
+  }
+
+  searchChanged(term) {
+    this.searchSubject.next(term);
+  }
+
+  doSearch(term) {
+    this.githubService.searchUser(term).subscribe(
+      results => this.searchResults = results,
+      error => null
+    )
   }
 
 }

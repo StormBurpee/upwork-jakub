@@ -33,6 +33,7 @@ export class DashboardComponent implements OnInit {
     this.githubService.getUserRepos(this.user.login).subscribe(
       repos => this.myRepos = repos
     )
+    localStorage.setItem("username", this.user.login);
   }
 
 }
