@@ -6,6 +6,7 @@ import { IndexComponent } from './index/index.component';
 import { CallbackComponent } from './callback/callback.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { UserComponent } from './user/user.component';
+import { AdminComponent } from './admin/admin.component';
 
 //defining our routes
 const routes: Routes = [
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: "user/:username",
     component: UserComponent
+  },
+  {
+    path: "admin",
+    component: AdminComponent
   }
 ];
 

@@ -74,6 +74,18 @@ export class LoginService {
     this.http.get(this.urls.localServer+"server/saverequest/"+type+"/"+username+"/"+endpoint).subscribe();
   }
 
+  adminLogin(username): Observable<any> {
+    return this.http.get(this.urls.localServer+"admin/auth/"+username).map(this.extractData).catch(this.handleError);
+  }
+
+  adminLogs(): Observable<any> {
+    return this.http.get(this.urls.localServer+"server/accesslog").map(this.extractData).catch(this.handleError);
+  }
+
+  serverDebug(): Observable<any> {
+    return this.http.get(this.urls.localServer+"server/verify").map(this.extractData).catch(this.handleError);
+  }
+
   private extractData(res: Response) {
     let body = res.json();
     return body || { };

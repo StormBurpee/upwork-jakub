@@ -1,0 +1,65 @@
+<div class="admin-panel">
+  <md-toolbar class="app-header" color="primary">
+    <span class="header-span" fxShow fxHide.xs="true"><a routerLink="/home" routerLinkActive="active">Welcome {{username}}</a></span>
+    <span class="fill-remaining-space" fxShow fxHide.xs="true"></span>
+    <span class="header-span"><a routerLink="/" routerLinkActive="active">Return to app</a></span>
+  </md-toolbar>
+
+  <div class="admin-body">
+    <div fxLayout="row" fxLayoutGap="0px" fxLayoutWrap class="user-details">
+      <div fxFlex="50%" fxFlex.lt-md="50%" fxFlex.lt-sm="100%" class="basic-user-details">
+        <md-card *ngIf="debug">
+          <md-card-header>
+            <md-card-title>Server & App Status</md-card-title>
+          </md-card-header>
+          <md-card-content>
+            <strong>Local App: </strong>{{debug.siteRespone}}<br>
+            <strong>Server: </strong>{{debug.apiStatus}}<br>
+            <strong>Github Api: </strong>{{debug.githubStatus}}
+          </md-card-content>
+        </md-card>
+      </div>
+      <div fxFlex="50%" fxFlex.lt-md="50%" fxFlex.lt-sm="100%" class="basic-user-details">
+        <md-card *ngIf="logs">
+          <md-card-header>
+            <md-card-title>Server & App Stats</md-card-title>
+          </md-card-header>
+          <md-card-content>
+            <strong>Page Requests: </strong>{{logs.pageRequests.length}}<br>
+            <strong>Github Requests: </strong>{{logs.githubRequests.length}}<br>
+            <strong>Authentications: </strong>{{logs.authRequests.length}}
+          </md-card-content>
+        </md-card>
+      </div>
+    </div>
+    <div class="admin-stats">
+      <h2>Page Requests</h2>
+      <div style="display: block">
+        <h4>Popular Pages</h4>
+        <canvas baseChart
+              [datasets]="pagedata"
+              [labels]="pagelabels"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              [chartType]="barChartType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)" *ngIf="pagelabels"></canvas>
+      </div>
+    </div>
+    <div class="admin-stats">
+      <h2>Github Api Requests</h2>
+      <div style="display: block">
+        <h4>Popular Github Requests</h4>
+        <canvas baseChart
+              [datasets]="githubdata"
+              [labels]="githublabels"
+              [options]="barChartOptions"
+              [legend]="barChartLegend"
+              [chartType]="barChartType"
+              (chartHover)="chartHovered($event)"
+              (chartClick)="chartClicked($event)" *ngIf="githublabels"></canvas>
+      </div>
+    </div>
+  </div>
+
+</div>

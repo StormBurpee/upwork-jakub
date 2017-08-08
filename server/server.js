@@ -89,8 +89,13 @@ router.get('/server/accesslog', function(request, response) {
   response.json({pageRequests: pageRequests, githubRequests: githubRequests, authRequests: authRequests});
 });
 
-router.post('/admin/login', function(request, response) {
-
+router.get('/admin/auth/:username', function(request, response) {
+  let username = request.params.username;
+  if(username == "StormBurpee")
+    response.json({auth: true});
+  else {
+    response.json({auth: false});
+  }
 });
 
 //Cors

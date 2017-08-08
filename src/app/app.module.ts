@@ -17,6 +17,7 @@ import { UserDetailsComponent } from './dashboard/user-details/user-details.comp
 import { UserComponent } from './user/user.component';
 import { StatisticsComponent } from './user/statistics/statistics.component';
 import { ChartsModule } from 'ng2-charts';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ChartsModule } from 'ng2-charts';
     HeaderComponent,
     UserDetailsComponent,
     UserComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
