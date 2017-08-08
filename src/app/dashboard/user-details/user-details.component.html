@@ -1,14 +1,55 @@
 <div fxLayout="row" fxLayoutGap="0px" fxLayoutWrap class="user-details">
-  <div fxFlex="25%" fxFlex.lt-md="33%" class="basic-user-details">
+  <div fxFlex="33%" fxFlex.lt-md="33%" class="basic-user-details">
     <md-card>
       <md-card-header>
         <div md-card-avatar class="user-avatar"><img src="{{user.avatar_url}}"></div>
-        <md-card-title>{{user.login}}</md-card-title>
+        <md-card-title><a routerLink="/user/{{user.login}}" routerLinkActive="active">{{user.login}}</a></md-card-title>
         <md-card-subtitle>Following: {{user.following}}, Followers: {{user.followers}}</md-card-subtitle>
       </md-card-header>
       <md-card-content>
         You joined github on {{user.formated_date}}
       </md-card-content>
     </md-card>
+  </div>
+  <div fxFlex="33%" fxFlex.lt-md="33%" class="basic-user-details" *ngIf="myStarred">
+    <md-card>
+      <md-card-header>
+        <md-card-title>{{user.login}}'s Misc stats</md-card-title>
+      </md-card-header>
+      <md-card-content>
+        <strong>Repo Count: </strong>{{repos.length}}<br>
+        <strong>Name: </strong>{{user.name}}<br>
+        <strong>Starred: </strong>{{myStarred.length}}
+      </md-card-content>
+    </md-card>
+  </div>
+  <div fxFlex="33%" fxFlex.lt-md="33%" class="basic-user-details" *ngIf="processedEvents != null">
+    <md-card>
+      <md-card-header>
+        <md-card-title style="margin: 0; padding:0;">{{user.login}}'s Recent Summary</md-card-title>
+        <md-card-subtitle style="margin: 0; padding:0; margin-bottom: 5px;">Since {{myEvents[myEvents.length-1].created_at}}</md-card-subtitle>
+      </md-card-header>
+      <md-card-content>
+        <strong>Repos Created: </strong>{{processedEvents.CreateEvent.count}}<br>
+        <strong>Commits Pushed: </strong>{{processedEvents.PushEvent.count}}<br>
+        <strong>Pull Requests: </strong>{{processedEvents.PullRequestEvent.count}}
+      </md-card-content>
+    </md-card>
+  </div>
+</div>
+<div class="my-repos">
+  <h2>My Repos</h2>
+  <div fxLayout="row" fxLayoutGap="0px" fxLayoutWrap class="user-repos">
+    <div fxFlex="33%" fxFlex.lt-md="33%" class="basic-repo-details" *ngFor="let repo of repos">
+      <md-card>
+        <md-card-header>
+          <md-card-title><h2>{{repo.name}}</h2></md-card-title>
+          <md-card-subtitle class="description">Description: {{repo.description}}</md-card-subtitle>
+        </md-card-header>
+        <md-card-content>
+          You joined github on {{user.formated_date}}
+        </md-card-content>
+      </md-card>
+    </div>
   </div>
 </div>

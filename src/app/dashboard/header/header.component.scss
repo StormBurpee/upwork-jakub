@@ -1,5 +1,21 @@
 .app-header {
 
+  md-input-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+
+    input {
+      color: rgba(255, 255, 255, 0.87);
+      text-align: center;
+      font-weight: 300;
+      margin-top: 5px;
+    }
+    label {
+      color: rgba(255, 255, 255, 0.87);
+    }
+  }
+
   .header-span {
     font-weight: 300;
     font-size: 16px;
@@ -7,5 +23,14 @@
 
   .fill-remaining-space {
     flex: 1 1 auto;
+  }
+}
+
+.search-container {
+  margin: 10px 0px;
+  padding: 0px 10px;
+  h2 {
+    font-weight: 300;
+    text-align: center;
   }
 }

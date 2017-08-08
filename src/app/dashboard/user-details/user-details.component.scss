@@ -1,14 +1,39 @@
-.user-details {
-  .basic-user-details {
-    padding: 10px;
+.basic-user-details, .basic-repo-details {
+  padding: 10px;
 
-    md-card {
-      .user-avatar {
-        img {
-          width: 100%;
-          height: auto;
-        }
+  md-card {
+    md-card-header {
+      width: 100%;
+      overflow: hidden;
+      & .description {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        text-align: left
       }
     }
+    md-card-title {
+      text-align: left;
+      h2 {
+        font-weight: 300;
+        margin-bottom: 10px;
+        margin-top: 0;
+      }
+    }
+    .user-avatar {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+
+.my-repos {
+  margin: 15px 0px;
+  text-align: center;
+  h2 {
+    font-weight: 300;
   }
 }

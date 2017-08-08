@@ -35,6 +35,18 @@ export class LoginService {
     return this.http.get(this.urls.api+"users/"+username+"/repos").map(this.extractData).catch(this.handleError);
   }
 
+  getUserEvents(username): Observable<any> {
+    return this.http.get(this.urls.api+"users/"+username+"/events").map(this.extractData).catch(this.handleError);
+  }
+
+  getUserStarred(username): Observable<any> {
+    return this.http.get(this.urls.api+"users/"+username+"/starred").map(this.extractData).catch(this.handleError);
+  }
+
+  searchUser(username): Observable<any> {
+    return this.http.get(this.urls.api+"search/users?q="+username).map(this.extractData).catch(this.handleError);
+  }
+
   private extractData(res: Response) {
     let body = res.json();
     return body || { };

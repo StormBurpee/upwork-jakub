@@ -14,6 +14,7 @@ import { HttpModule } from '@angular/http';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './dashboard/header/header.component';
 import { UserDetailsComponent } from './dashboard/user-details/user-details.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UserDetailsComponent } from './dashboard/user-details/user-details.comp
     CallbackComponent,
     DashboardComponent,
     HeaderComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
