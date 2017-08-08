@@ -1,0 +1,16 @@
+<div class="user-statistics">
+  <h2>User Statistics</h2>
+  <div class="daily-commits chart">
+    <div style="display: block">
+      <h4>Daily Commits</h4>
+      <canvas baseChart
+            [datasets]="barChartData"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [legend]="barChartLegend"
+            [chartType]="barChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)" *ngIf="barChartLabels"></canvas>
+    </div>
+  </div>
+</div>

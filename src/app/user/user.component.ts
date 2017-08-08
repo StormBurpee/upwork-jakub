@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { LoginService } from '../login.service';
 import {Router, ActivatedRoute, Params} from '@angular/router';
 import { HeaderComponent } from '../dashboard/header/header.component';
+import { StatisticsComponent } from './statistics/statistics.component';
 
 @Component({
   selector: 'app-user',
@@ -17,10 +18,22 @@ export class UserComponent implements OnInit {
   repos;
   username;
 
-  constructor(private githubService: LoginService, private route: ActivatedRoute ) { }
+  constructor(private githubService: LoginService, private route: ActivatedRoute ) {
+    this.route.params.subscribe(params => {
+      this.username = params['username'],
+      console.log(this.username);
+      this.user = null;
+      this.processedEvents = null;
+      this.repos = null;
+      this.myEvents = null;
+      this.getUser();
+    })
+  }
 
   ngOnInit() {
+
     this.username = this.route.snapshot.paramMap.get('username');
+
     //this.username = "StormBurpee";
     this.getUser();
   }

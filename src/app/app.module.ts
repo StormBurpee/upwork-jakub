@@ -15,6 +15,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './dashboard/header/header.component';
 import { UserDetailsComponent } from './dashboard/user-details/user-details.component';
 import { UserComponent } from './user/user.component';
+import { StatisticsComponent } from './user/statistics/statistics.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { UserComponent } from './user/user.component';
     DashboardComponent,
     HeaderComponent,
     UserDetailsComponent,
-    UserComponent
+    UserComponent,
+    StatisticsComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,8 @@ import { UserComponent } from './user/user.component';
     MaterialModule,
     BrowserAnimationsModule,
     HttpModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

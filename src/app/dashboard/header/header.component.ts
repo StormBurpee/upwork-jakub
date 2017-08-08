@@ -1,5 +1,6 @@
 import { Component, OnInit, Input} from '@angular/core';
 import { LoginService } from '../../login.service';
+import { Router } from '@angular/router';
 
 import { Subject } from "rxjs/Subject";
 import "rxjs/add/operator/debounceTime";
@@ -20,7 +21,7 @@ export class HeaderComponent implements OnInit {
 
   private searchSubject: Subject<any> = new Subject();
 
-  constructor(private githubService: LoginService) {
+  constructor(private githubService: LoginService, private router: Router) {
     this.searchSubject.debounceTime(450).distinctUntilChanged().subscribe(
       term => this.doSearch(term)
     )
@@ -39,6 +40,12 @@ export class HeaderComponent implements OnInit {
       results => this.searchResults = results,
       error => null
     )
+  }
+
+  clickedUser(search) {
+    console.log(search);
+    search.value = "";
+    this.searchResults = null;
   }
 
 }

@@ -39,6 +39,10 @@ export class LoginService {
     return this.http.get(this.urls.api+"users/"+username+"/events").map(this.extractData).catch(this.handleError);
   }
 
+  getUserCommits(username): Observable<any> {
+    return this.http.get(this.urls.api+"users/"+username+"/events?type=PushEvent").map(this.extractData).catch(this.handleError);
+  }
+
   getUserStarred(username): Observable<any> {
     return this.http.get(this.urls.api+"users/"+username+"/starred").map(this.extractData).catch(this.handleError);
   }
