@@ -23,8 +23,16 @@ export class LoginService {
     return this.http.get(this.urls.callbackServer+hash).map(this.extractData).catch(this.handleError);
   }
 
-  getUser(access_token): Observable<any> {
+  getMyUser(access_token): Observable<any> {
     return this.http.get(this.urls.api+"user?access_token="+access_token).map(this.extractData).catch(this.handleError);
+  }
+
+  getUser(username): Observable<any> {
+    return this.http.get(this.urls.api+"users/"+username).map(this.extractData).catch(this.handleError);
+  }
+
+  getUserRepos(username): Observable<any> {
+    return this.http.get(this.urls.api+"users/"+username+"/repos").map(this.extractData).catch(this.handleError);
   }
 
   private extractData(res: Response) {

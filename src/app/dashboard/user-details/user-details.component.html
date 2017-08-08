@@ -1,0 +1,14 @@
+<div fxLayout="row" fxLayoutGap="0px" fxLayoutWrap class="user-details">
+  <div fxFlex="25%" fxFlex.lt-md="33%" class="basic-user-details">
+    <md-card>
+      <md-card-header>
+        <div md-card-avatar class="user-avatar"><img src="{{user.avatar_url}}"></div>
+        <md-card-title>{{user.login}}</md-card-title>
+        <md-card-subtitle>Following: {{user.following}}, Followers: {{user.followers}}</md-card-subtitle>
+      </md-card-header>
+      <md-card-content>
+        You joined github on {{user.formated_date}}
+      </md-card-content>
+    </md-card>
+  </div>
+</div>

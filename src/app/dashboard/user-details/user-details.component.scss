@@ -1,0 +1,14 @@
+.user-details {
+  .basic-user-details {
+    padding: 10px;
+
+    md-card {
+      .user-avatar {
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}

@@ -12,6 +12,7 @@ export class DashboardComponent implements OnInit {
 
   access_token = "";
   user;
+  myRepos;
 
   constructor(private githubService: LoginService) { }
 
@@ -21,11 +22,17 @@ export class DashboardComponent implements OnInit {
   }
 
   getUserDetails() {
-    this.githubService.getUser(this.access_token).subscribe(
+    this.githubService.getMyUser(this.access_token).subscribe(
       res => this.user = res,
       error => null,
-      () => console.log(this.user)
+      () => this.afterUser()
     );
+  }
+
+  afterUser() {
+    this.githubService.getUserRepos(this.user.login).subscribe(
+      repos => this.myRepos = repos
+    )
   }
 
 }
