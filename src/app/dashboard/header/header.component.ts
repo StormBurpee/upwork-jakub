@@ -48,4 +48,17 @@ export class HeaderComponent implements OnInit {
     this.searchResults = null;
   }
 
+  checkLoggedIn() {
+    if(localStorage.access_token == null) {
+      this.router.navigate(['/']);
+    }
+  }
+
+  logout() {
+    console.log("Logging out");
+    localStorage.setItem("username", "");
+    localStorage.setItem("access_token", "");
+    this.router.navigate(['/']);
+  }
+
 }

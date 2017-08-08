@@ -29,8 +29,8 @@ cd upwork-jakup
 npm install
 ```
 
-To start the program run
 ```
+To start the program run
 npm start
 ```
 This uses the concurrent technology to run two npm scripts in parallel.

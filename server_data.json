@@ -49,6 +49,121 @@
       "endpoint": "navigation:home",
       "user": "StormBurpee",
       "time": "Tue, 08 Aug 2017 16:59:36 GMT"
+    },
+    {
+      "endpoint": "navigation:user:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:25:14 GMT"
+    },
+    {
+      "endpoint": "navigation:",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:25:45 GMT"
+    },
+    {
+      "endpoint": "navigation:callback",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:25:49 GMT"
+    },
+    {
+      "endpoint": "auth_login:5ed4c43e493b3422a65b",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:25:49 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:25:53 GMT"
+    },
+    {
+      "endpoint": "navigation:user:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:07 GMT"
+    },
+    {
+      "endpoint": "navigation:",
+      "user": "undefined",
+      "time": "Tue, 08 Aug 2017 17:26:45 GMT"
+    },
+    {
+      "endpoint": "navigation:user:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:36 GMT"
+    },
+    {
+      "endpoint": "navigation:user:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:32 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:40 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:05 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:25 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:37 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:40 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:42 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:54 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:03 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:15 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:35 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:37 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:58 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:38:18 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:39:13 GMT"
     }
   ],
   "githubRequests": [
@@ -456,11 +571,532 @@
       "endpoint": "getstars:StormBurpee",
       "user": "StormBurpee",
       "time": "Tue, 08 Aug 2017 16:59:37 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:25:14 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:25:14 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:25:53 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:25:54 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:25:55 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:25:55 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:07 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:09 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:09 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:09 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:09 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:09 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:09 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:09 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:09 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:10 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:10 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:10 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:10 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:26:11 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:36 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:36 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:38 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:38 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:38 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:38 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:38 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:38 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:38 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:38 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:39 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:39 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:39 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:34:40 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:32 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:32 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:32 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:32 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:32 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:32 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:32 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:32 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:32 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:33 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:33 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:33 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:33 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:33 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:40 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:41 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:41 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:35:41 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:05 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:05 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:05 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:05 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:25 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:25 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:25 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:25 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:37 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:37 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:37 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:37 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:41 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:42 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:43 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:43 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:43 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:54 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:54 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:54 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:36:54 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:03 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:03 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:03 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:03 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:15 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:15 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:15 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:15 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:35 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:35 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:35 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:35 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:37 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:37 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:38 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:38 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:58 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:59 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:59 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:37:59 GMT"
+    },
+    {
+      "endpoint": "getmyuser:6312805848cd7336ebcde230f800cbf4e9730658",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:38:18 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:38:18 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:38:18 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:38:18 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:38:46 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:38:46 GMT"
+    },
+    {
+      "endpoint": "getmyuser:2be9dcc9feee0a6a0ea77ff2ead74d80dd8174fa",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:39:13 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:39:13 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:39:13 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 17:39:13 GMT"
     }
   ],
   "userAuths": [
     {
       "access_token": "56651ee0bcfef709eb87e70f6be62b69b15826f7"
+    },
+    {
+      "access_token": "6312805848cd7336ebcde230f800cbf4e9730658"
+    },
+    {
+      "access_token": "2be9dcc9feee0a6a0ea77ff2ead74d80dd8174fa"
     }
   ]
 }

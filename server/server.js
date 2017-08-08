@@ -89,6 +89,10 @@ router.get('/server/accesslog', function(request, response) {
   response.json({pageRequests: pageRequests, githubRequests: githubRequests, authRequests: authRequests});
 });
 
+router.post('/admin/login', function(request, response) {
+
+});
+
 //Cors
 app.all('*', function (req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
