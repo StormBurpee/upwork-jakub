@@ -1,5 +1,5 @@
 <div fxLayout="row" fxLayoutGap="0px" fxLayoutWrap class="user-details">
-  <div fxFlex="33%" fxFlex.lt-md="33%" class="basic-user-details">
+  <div fxFlex="33%" fxFlex.lt-md="100%" fxFlex.lt-sm="100%" class="basic-user-details">
     <md-card>
       <md-card-header>
         <div md-card-avatar class="user-avatar"><img src="{{user.avatar_url}}"></div>
@@ -11,7 +11,7 @@
       </md-card-content>
     </md-card>
   </div>
-  <div fxFlex="33%" fxFlex.lt-md="33%" class="basic-user-details" *ngIf="myStarred">
+  <div fxFlex="33%" fxFlex.lt-md="50%" fxFlex.lt-sm="100%" class="basic-user-details" *ngIf="myStarred">
     <md-card>
       <md-card-header>
         <md-card-title>{{user.login}}'s Misc stats</md-card-title>
@@ -23,7 +23,7 @@
       </md-card-content>
     </md-card>
   </div>
-  <div fxFlex="33%" fxFlex.lt-md="33%" class="basic-user-details" *ngIf="processedEvents != null">
+  <div fxFlex="33%" fxFlex.lt-md="50%" fxFlex.lt-sm="100%" class="basic-user-details" *ngIf="processedEvents != null">
     <md-card>
       <md-card-header>
         <md-card-title style="margin: 0; padding:0;">{{user.login}}'s Recent Summary</md-card-title>
@@ -40,7 +40,7 @@
 <div class="my-repos">
   <h2>My Repos</h2>
   <div fxLayout="row" fxLayoutGap="0px" fxLayoutWrap class="user-repos">
-    <div fxFlex="33%" fxFlex.lt-md="33%" class="basic-repo-details" *ngFor="let repo of repos">
+    <div fxFlex="33%" fxFlex.lt-md="50%" fxFlex.lt-sm="100%" class="basic-repo-details" *ngFor="let repo of repos">
       <md-card>
         <md-card-header>
           <md-card-title><h2>{{repo.name}}</h2></md-card-title>

@@ -1,6 +1,6 @@
 <md-toolbar class="app-header" color="primary">
-  <span class="header-span"><a routerLink="/home" routerLinkActive="active">Maersk Github App</a></span>
-  <span class="fill-remaining-space"></span>
+  <span class="header-span" fxShow fxHide.xs="true"><a routerLink="/home" routerLinkActive="active">Maersk Github App</a></span>
+  <span class="fill-remaining-space" fxShow fxHide.xs="true"></span>
   <md-input-container color="secondary">
     <input mdInput placeholder="Search for github user" (keyup)="searchChanged(search.value)" #search>
   </md-input-container>
@@ -12,7 +12,7 @@
     <h2>Search Results</h2>
     <div class="results">
       <div fxLayout="row" fxLayoutGap="0px" fxLayoutWrap class="user-details">
-        <div fxFlex="33%" fxFlex.lt-md="33%" class="basic-user-details" *ngFor="let user of searchResults.items">
+        <div fxFlex="33%" fxFlex.lt-md="50%" fxFlex.lt-sm="100%" class="basic-user-details" *ngFor="let user of searchResults.items">
           <a routerLink="/user/{{user.login}}" routerLinkActive="active" (click)="clickedUser(search)">
             <md-card>
               <md-card-header>
