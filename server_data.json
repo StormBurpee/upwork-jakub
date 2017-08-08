@@ -1,0 +1,466 @@
+{
+  "pageRequests": [
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:55 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:54:59 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:10 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:44 GMT"
+    },
+    {
+      "endpoint": "navigation:user:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:47 GMT"
+    },
+    {
+      "endpoint": "navigation:user:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:57 GMT"
+    },
+    {
+      "endpoint": "navigation:",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:59:21 GMT"
+    },
+    {
+      "endpoint": "navigation:callback",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:59:34 GMT"
+    },
+    {
+      "endpoint": "auth_login:493ccd5f1a421413aab9",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:59:34 GMT"
+    },
+    {
+      "endpoint": "navigation:home",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:59:36 GMT"
+    }
+  ],
+  "githubRequests": [
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:05 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:05 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:05 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:05 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:05 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:05 GMT"
+    },
+    {
+      "endpoint": "getmyuser:d483bf0c805e4d53a88bdac578f988c3f35b58f7",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:52 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:54 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:55 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:55 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:50:55 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:51:52 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:52:52 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:52:54 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:52:55 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:52:55 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:52:55 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:52:55 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:54:12 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:54:12 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:54:12 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:54:12 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:54:12 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:54:12 GMT"
+    },
+    {
+      "endpoint": "getmyuser:d483bf0c805e4d53a88bdac578f988c3f35b58f7",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:54:59 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:54:59 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:54:59 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:54:59 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:01 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:01 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:02 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:02 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:02 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:02 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:02 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:02 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:02 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:02 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:03 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:03 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:03 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:04 GMT"
+    },
+    {
+      "endpoint": "getmyuser:d483bf0c805e4d53a88bdac578f988c3f35b58f7",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:11 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:11 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:11 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:55:11 GMT"
+    },
+    {
+      "endpoint": "getmyuser:d483bf0c805e4d53a88bdac578f988c3f35b58f7",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:44 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:45 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:45 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:45 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:47 GMT"
+    },
+    {
+      "endpoint": "getuser:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:47 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:47 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:47 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:47 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:47 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:47 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:47 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:47 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:48 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:48 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:48 GMT"
+    },
+    {
+      "endpoint": "received_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:48 GMT"
+    },
+    {
+      "endpoint": "user_commits:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:49 GMT"
+    },
+    {
+      "endpoint": "search:pozra",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:52 GMT"
+    },
+    {
+      "endpoint": "search:povra",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:55 GMT"
+    },
+    {
+      "endpoint": "getuser:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:57 GMT"
+    },
+    {
+      "endpoint": "user_events:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:57 GMT"
+    },
+    {
+      "endpoint": "user_repos:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:57 GMT"
+    },
+    {
+      "endpoint": "user_commits:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:57 GMT"
+    },
+    {
+      "endpoint": "received_events:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:57 GMT"
+    },
+    {
+      "endpoint": "user_commits:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:58 GMT"
+    },
+    {
+      "endpoint": "received_events:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:58 GMT"
+    },
+    {
+      "endpoint": "user_commits:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:58 GMT"
+    },
+    {
+      "endpoint": "received_events:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:59 GMT"
+    },
+    {
+      "endpoint": "user_commits:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:56:59 GMT"
+    },
+    {
+      "endpoint": "user_commits:povrazor",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:57:00 GMT"
+    },
+    {
+      "endpoint": "getmyuser:56651ee0bcfef709eb87e70f6be62b69b15826f7",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:59:36 GMT"
+    },
+    {
+      "endpoint": "user_repos:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:59:37 GMT"
+    },
+    {
+      "endpoint": "user_events:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:59:37 GMT"
+    },
+    {
+      "endpoint": "getstars:StormBurpee",
+      "user": "StormBurpee",
+      "time": "Tue, 08 Aug 2017 16:59:37 GMT"
+    }
+  ],
+  "userAuths": [
+    {
+      "access_token": "56651ee0bcfef709eb87e70f6be62b69b15826f7"
+    }
+  ]
+}

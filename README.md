@@ -1,5 +1,26 @@
 # GithubUserSpa
 
+## Docker
+To build docker run
+```
+docker build -t my-nodejs-app .
+```
+Then to run the docker container use
+```
+docker run -it --rm --name my-running-app my-nodejs-app
+```
+
+## Rest api
+Access logs can be viewn by going to
+http://localhost:8080/api/server/accesslog
+These logs store all the github requests, page requests and login tokens to provide debugging information and show the status of the site, and how it's working. If an error occurs, there will be an error field in the requests. These can be filtered through javascript to show only errors.
+
+The logs are saved through the `/api/server/saverequest/:type/:user/:endpoint` api endpoint, and is called for every request made in the app.
+
+To verify that the server is functioning correctly you can visit
+`http://localhost:8080/api/server/verify`
+This will give you information in regards to the REST Api, The client site and the github api.
+
 ## Setup
 To install
 ```
