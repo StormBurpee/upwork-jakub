@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 //Importing the component that will handle the root page
 import { IndexComponent } from './index/index.component';
 import { CallbackComponent } from './callback/callback.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 //defining our routes
 const routes: Routes = [
@@ -13,9 +14,13 @@ const routes: Routes = [
     children: []
   },
   {
-    path: '/callback',
+    path: 'callback',
     component: CallbackComponent,
     children: []
+  },
+  {
+    path: 'home',
+    component: DashboardComponent
   }
 ];
 

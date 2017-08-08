@@ -9,17 +9,24 @@ import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { CallbackComponent } from './callback/callback.component';
 
+import { HttpModule } from '@angular/http';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeaderComponent } from './dashboard/header/header.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
-    CallbackComponent
+    CallbackComponent,
+    DashboardComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
