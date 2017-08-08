@@ -7,18 +7,34 @@ git clone https://github.com/StormBurpee/upwork-jakub
 cd upwork-jakup
 npm install
 ```
-To start the server run
-```
-npm run server
-```
 
-To start the client run
+To start the program run
 ```
 npm start
 ```
+This uses the concurrent technology to run two npm scripts in parallel.
+This means it can start the serve (port 8080), and then run the client with `ng serve` on port 4200.
+
 then navigate to http://localhost:4200 in your local browser.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
+
+## Technologies
+Runs using typescript, scss and html as the three main languages.
+Further to this, you can view additional packages in the package.json file.
+The main parts are run through
+**Client**
+- Chart.js (For providing charts on the user profile)
+- @angular/* (All of angular, the front end framework)
+- @angular/flex-layout (allows us to create responsive designs easier)
+- ng2-charts (Angular framework for chart.js)
+- rxjs (the routing used by angular)
+
+**Server**
+the server includes the REST api, and github login authentication
+- express (the actual server itself found at ./server/server.js)
+- body-parser (allows us to return results in json to be read by angular)
+- cookie-parser (allows us to set cookies if we desire)
 
 ## Development server
 

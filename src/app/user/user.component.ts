@@ -17,6 +17,8 @@ export class UserComponent implements OnInit {
   myEvents;
   repos;
   username;
+  commits = [];
+  commitCount = 0;
 
   constructor(private githubService: LoginService, private route: ActivatedRoute ) {
     this.route.params.subscribe(params => {
@@ -49,6 +51,19 @@ export class UserComponent implements OnInit {
   postUser() {
     this.getMyEvents();
     this.getRepos();
+  }
+
+  processUserData() {
+    let ccount = 0;
+    for(var i = 0; i < this.commits.length; i++) {
+      let pcommit = this.commits[i];
+      for(var j = 0; i < pcommit.length; i++) {
+        let commit = this.commits[i][j];
+        if(commit.type == "PushEvent")
+          ccount += 1;
+      }
+    }
+    this.commitCount = ccount;
   }
 
   getRepos() {

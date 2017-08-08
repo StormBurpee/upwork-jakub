@@ -13,4 +13,17 @@
             (chartClick)="chartClicked($event)" *ngIf="barChartLabels"></canvas>
     </div>
   </div>
+  <div class="daily-commits chart">
+    <div style="display: block">
+      <h4>Users who interact with {{user.login}}</h4>
+      <canvas baseChart
+            [datasets]="userData"
+            [labels]="userLabels"
+            [options]="barChartOptions"
+            [legend]="barChartLegend"
+            [chartType]="barChartType"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)" *ngIf="userLabels"></canvas>
+    </div>
+  </div>
 </div>

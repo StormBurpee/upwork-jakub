@@ -9,6 +9,7 @@ import 'rxjs/add/operator/map';
 export class LoginService {
 
   public clientId = "a096d3ce655c4f0a806f";
+  public auth = localStorage.access_token;
 
   urls = {
     callback: "https://github.com/login/oauth/access_token",
@@ -28,27 +29,33 @@ export class LoginService {
   }
 
   getUser(username): Observable<any> {
-    return this.http.get(this.urls.api+"users/"+username).map(this.extractData).catch(this.handleError);
+    return this.http.get(this.urls.api+"users/"+username+"?access_token="+this.auth).map(this.extractData).catch(this.handleError);
   }
 
   getUserRepos(username): Observable<any> {
-    return this.http.get(this.urls.api+"users/"+username+"/repos").map(this.extractData).catch(this.handleError);
+    return this.http.get(this.urls.api+"users/"+username+"/repos"+"?access_token="+this.auth).map(this.extractData).catch(this.handleError);
   }
 
   getUserEvents(username): Observable<any> {
-    return this.http.get(this.urls.api+"users/"+username+"/events").map(this.extractData).catch(this.handleError);
+    let pg1 = this.http.get(this.urls.api+"users/"+username+"/events?page=1"+"&access_token="+this.auth).map(this.extractData).catch(this.handleError);
+    return pg1;
   }
 
-  getUserCommits(username): Observable<any> {
-    return this.http.get(this.urls.api+"users/"+username+"/events?type=PushEvent").map(this.extractData).catch(this.handleError);
+  //DEPRECIATION:
+  getUserCommits(username, page): Observable<any> {
+    return this.http.get(this.urls.api+"users/"+username+"/events?page="+page+"&access_token="+this.auth).map(this.extractData).catch(this.handleError);
+  }
+
+  getUserReceived(username, page): Observable<any> {
+    return this.http.get(this.urls.api+"users/"+username+"/received_events?page="+page+"&access_token="+this.auth).map(this.extractData).catch(this.handleError);
   }
 
   getUserStarred(username): Observable<any> {
-    return this.http.get(this.urls.api+"users/"+username+"/starred").map(this.extractData).catch(this.handleError);
+    return this.http.get(this.urls.api+"users/"+username+"/starred"+"?access_token="+this.auth).map(this.extractData).catch(this.handleError);
   }
 
   searchUser(username): Observable<any> {
-    return this.http.get(this.urls.api+"search/users?q="+username).map(this.extractData).catch(this.handleError);
+    return this.http.get(this.urls.api+"search/users?q="+username+"&access_token="+this.auth).map(this.extractData).catch(this.handleError);
   }
 
   private extractData(res: Response) {
